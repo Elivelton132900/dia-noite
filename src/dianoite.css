@@ -1,0 +1,47 @@
+.direita {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+.esquerda {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.sun {
+    color:red;
+}
+
+.moon {
+    color: white;
+}
+
+.dia {
+    background-color: orange;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.noite {
+    background-color:royalblue;
+    min-height: 100vh;
+    min-width: 100vw;
+}
+
+.dianoite {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.dianoite h1 {
+    font-size: 50px;
+    color: white;
+}
+
+.dianoite .horario {
+    font-size: 40px;
+}
